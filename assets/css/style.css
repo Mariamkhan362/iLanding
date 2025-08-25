@@ -8,11 +8,11 @@
     box-sizing: border-box;
 }
 
-.nav-item:hover a {
+.nav-item a:hover {
     color: var(--btn-color) !important;
 }
 .dropdown-menu a:hover{
-    color: var(--btn-color) !important;
+    color: var(--btn-color);
 }
 
 .company-badge {
