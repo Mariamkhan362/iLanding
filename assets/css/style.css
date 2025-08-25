@@ -36,7 +36,7 @@
 #hero {
     position: relative;
     padding-top: 160px;
-    background: linear-gradient(135deg,
+    background: linear-gradient(145deg,
             color-mix(in srgb, var(--btn-color), transparent 95%) 50%,
             color-mix(in srgb, var(--btn-color), transparent 98%) 25%, transparent 50%);
 
@@ -562,14 +562,12 @@ hr {
     opacity: 0.7;
 
 }
-
 .client-data {
     opacity: 1;
     transform: scale(1.1);
     filter: grayscale();
     cursor: pointer;
 }
-
 .client-data:hover {
     filter: none;
 }
@@ -714,6 +712,9 @@ hr {
     border-radius: 10px;
     transition: all 0.3s ease;
 }
+.service-card:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+}
 
 .service-card .icon {
     width: 60px;
@@ -794,6 +795,9 @@ hr {
     transition: all 0.3s ease;
     position: relative;
 }
+.pricing-card:hover {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
 
 .pricing-card h3 {
     font-size: 1.5rem;
@@ -814,7 +818,7 @@ hr {
 .pricing-card .price .amount {
     font-size: 3.5rem;
     font-weight: 700;
-    line-height: 1;
+    
 }
 
 .pricing-card .price .period {
@@ -1044,13 +1048,13 @@ hr {
     background-color: var(--btn-color);
     color: #fff;
     padding: 3rem;
-    border-radius: 1rem;
+    border-radius:2rem;
     height: 100%;
 }
 
 .info-box h3 {
     color: #fff;
-    font-size: 2rem;
+    font-size:2rem;
     margin-bottom: 1rem;
 }
 
@@ -1103,7 +1107,7 @@ hr {
 }
 
 .contact-form h3 {
-    font-size: 2rem;
+    font-size:3rem;
     margin-bottom: 1rem;
     color: var(--headingcolor);
 }
